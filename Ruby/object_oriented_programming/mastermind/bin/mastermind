@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/mastermind"
+
+game = Mastermind.new(nil, 3333)
+
+game.welcome
+
+puts"2 human players or one?(1/2)"
+player_num = gets.strip
+
+if player_num == "2"
+  game.coder_turn
+else
+  game.computer_code
+end
+
+game.play
