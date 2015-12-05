@@ -1,0 +1,131 @@
+Future plans for this program include adding the option to play against the computer
+as well as adding a way to keep track of users win/loss record.
+
+Below is an example game output from the command line.
+```
+Welcome to Ralston's Tic-Tac-Toe
+Please enter a name for player X
+Ralston
+Bow Down! The rightful king returns to his throne
+Please enter a name for player O
+Bradford
+Welcome, Bradford
+  |   |
+-----------
+  |   |
+-----------
+  |   |
+Ralston, Please select a move (1-9):
+1
+X
+
+
+
+
+
+
+
+
+X |   |
+-----------
+  |   |
+-----------
+  |   |
+Bradford, please select a move (1-9)
+3
+X
+
+O
+
+
+
+
+
+
+X |   | O
+-----------
+  |   |
+-----------
+  |   |
+Ralston, Please select a move (1-9):
+4
+X
+
+O
+X
+
+
+
+
+
+X |   | O
+-----------
+X |   |
+-----------
+  |   |
+Bradford, please select a move (1-9)
+7
+X
+
+O
+X
+
+
+O
+
+
+X |   | O
+-----------
+X |   |
+-----------
+O |   |
+Ralston, Please select a move (1-9):
+5
+X
+
+O
+X
+X
+
+O
+
+
+X |   | O
+-----------
+X | X |
+-----------
+O |   |
+Bradford, please select a move (1-9)
+9
+X
+
+O
+X
+X
+
+O
+
+O
+X |   | O
+-----------
+X | X |
+-----------
+O |   | O
+Ralston, Please select a move (1-9):
+6
+X
+
+O
+X
+X
+X
+O
+
+O
+X |   | O
+-----------
+X | X | X
+-----------
+O |   | O
+Congratulations! Ralston, The Rightful King, is victorious once again
+```
